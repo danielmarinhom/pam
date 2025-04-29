@@ -55,13 +55,13 @@ namespace RpgApi.Data
 
             modelBuilder.Entity<Arma>().HasData
             (
-                new Arma() { Id = 1, Nome = "Espada de Madeira", Dano = 5, PersonagemId = 1},
-                new Arma() { Id = 2, Nome = "Espada de Ferro", Dano = 10, PersonagemId = 2},
-                new Arma() { Id = 3, Nome = "Espada de Diamante", Dano = 15, PersonagemId = 3},
-                new Arma() { Id = 4, Nome = "Cajado de Fogo", Dano = 20, PersonagemId = 4},
-                new Arma() { Id = 5, Nome = "Cajado de Gelo", Dano = 25, PersonagemId = 5},
-                new Arma() { Id = 6, Nome = "Cajado de Relâmpago", Dano = 35, PersonagemId = 6},
-                new Arma() { Id = 7, Nome = "Lança", Dano = 999, PersonagemId = 7}
+                new Arma() { Id = 1, Nome = "Scar-20", Dano = 5, PersonagemId = 1},
+                new Arma() { Id = 2, Nome = "NPM INSTALL", Dano = 10, PersonagemId = 2},
+                new Arma() { Id = 3, Nome = "Lança Granadas", Dano = 15, PersonagemId = 3},
+                new Arma() { Id = 4, Nome = "RPG", Dano = 20, PersonagemId = 4},
+                new Arma() { Id = 5, Nome = "Glock", Dano = 25, PersonagemId = 5},
+                new Arma() { Id = 6, Nome = "Github", Dano = 35, PersonagemId = 6},
+                new Arma() { Id = 7, Nome = "Commit", Dano = 999, PersonagemId = 7}
             );
 
             modelBuilder.Entity<PersonagemHabilidade>()
